@@ -2,12 +2,19 @@
 
 ---
 [//]: # (Image References)
-[rawImg]: ./test_image/solidYellowCurve2.jpg
-[grayImg]: ./test_image_output/gray_solidYellowCurve2.jpg
-[gaussImg]: ./test_image_output/gauss_solidYellowCurve2.jpg
-[wcannyImg]: ./test_image_output/wcanny_solidYellowCurve2.jpg
-[maskedImg]: ./test_image_output/masked_solidYellowCurve2.jpg
-[houghImg]: ./test_image_output/hough_solidYellowCurve2.jpg
+
+[rawImg]: ./test_image/solidYellowCurve2.jpg "raw"
+
+[grayImg]: ./test_image_output/gray_solidYellowCurve2.jpg "gray"
+
+[gaussImg]: ./test_image_output/gauss_solidYellowCurve2.jpg "gauss"
+
+[wcannyImg]: ./test_image_output/wcanny_solidYellowCurve2.jpg "wcanny"
+
+[maskedImg]: ./test_image_output/masked_solidYellowCurve2.jpg "masked"
+
+[houghImg]: ./test_image_output/hough_solidYellowCurve2.jpg "hough"
+
 ---
 
 ## Reflection
