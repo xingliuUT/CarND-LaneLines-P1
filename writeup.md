@@ -1,11 +1,13 @@
 # **Finding Lane Lines on the Road** 
-[//]: #(Image References)
+
+---
+[//]: # (Image References)
 [rawImg]: ./test_image/solidYellowCurve2.jpg
 [grayImg]: ./test_image_output/gray_solidYellowCurve2.jpg
-[gaussImg]:./test_image_output/gauss_solidYellowCurve2.jpg
-[wcannyImg]:./test_image_output/wcanny_solidYellowCurve2.jpg
-[maskedImg]:./test_image_output/masked_solidYellowCurve2.jpg
-[houghImg]:./test_image_output/hough_solidYellowCurve2.jpg
+[gaussImg]: ./test_image_output/gauss_solidYellowCurve2.jpg
+[wcannyImg]: ./test_image_output/wcanny_solidYellowCurve2.jpg
+[maskedImg]: ./test_image_output/masked_solidYellowCurve2.jpg
+[houghImg]: ./test_image_output/hough_solidYellowCurve2.jpg
 ---
 
 ## Reflection
