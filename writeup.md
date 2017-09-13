@@ -12,13 +12,13 @@ I want to expand on the last step above (which is done in the function `draw_lin
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be when the brightness contrast between the road and the lines are below the low threshold or above the high threshold I set fixed in applying Canny Edge detection. This scenario is real because there are road conditions when the sunlight is extra bright and suddenly there's dark shadow from a tree or building in the surrounding. 
 
-Another shortcoming could be ...
+Another shortcoming could be when the road in sight is not a straight line. This is a problem because in the pipeline I have assumed that the lane lines are straight and averaged over the positive and negative slopes of lines identified by the Hough Transform to boil them down to two lines. However, in a real life situation, there could be sharp turns, for example, ramps up and down a high way. There could also be cases where the road is under maintenance so the lane is temporarily signaled by traffic cones and has significant curves.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to adjust the thresholds in Canny edge detection step so that they float with respect to the absolute brightness in the neighborhood pixels: when the neighborhood is too bright or too dark, decrease the low and high thresholds.
 
-Another potential improvement could be to ...
+Another potential improvement could be to use nonlinear ways to trace the lane lines other than straight-line extrapolation. 
