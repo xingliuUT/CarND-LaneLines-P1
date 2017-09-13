@@ -3,17 +3,17 @@
 ---
 [//]: # (Image References)
 
-[rawImg]: ./test_image/solidYellowCurve2.jpg "raw"
+[rawImg]: ./test_images/solidYellowCurve2.jpg "raw"
 
-[grayImg]: ./test_image_output/gray_solidYellowCurve2.jpg "gray"
+[grayImg]: ./test_images_output/gray_solidYellowCurve2.jpg "gray"
 
-[gaussImg]: ./test_image_output/gauss_solidYellowCurve2.jpg "gauss"
+[gaussImg]: ./test_images_output/gauss_solidYellowCurve2.jpg "gauss"
 
-[wcannyImg]: ./test_image_output/wcanny_solidYellowCurve2.jpg "wcanny"
+[wcannyImg]: ./test_images_output/wcanny_solidYellowCurve2.jpg "wcanny"
 
-[maskedImg]: ./test_image_output/masked_solidYellowCurve2.jpg "masked"
+[maskedImg]: ./test_images_output/masked_solidYellowCurve2.jpg "masked"
 
-[houghImg]: ./test_image_output/hough_solidYellowCurve2.jpg "hough"
+[houghImg]: ./test_images_output/hough_solidYellowCurve2.jpg "hough"
 
 ---
 
@@ -22,7 +22,9 @@
 ### 1. Pipeline Construction
 
 The `pipeline` function is what I used to recognize and mark lane lines on an image. 
+
 ![alt text][rawImg]
+
 There are five consecutive steps in the pipeline. 
 
 First, the image of interest is converted into grayscale. This step is straightforward. 
